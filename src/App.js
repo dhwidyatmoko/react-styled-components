@@ -38,35 +38,6 @@ const TitleH6 = styled(Title)`
     font-family: Calibri;
 `;
 
-/* unvisited link 
-a:link {
-  color: #FF0000;
-}
-
-/* visited link 
-a:visited {
-  color: #00FF00;
-}
-
-/* mouse over link 
-a:hover {
-  color: #FF00FF;
-}
-
-/* selected link 
-a:active {
-  color: #0000FF;
-}
-
-a:link {
-  color: #FF0000;
-a:visited {
-  color: #00FF00;
-a:hover {
-  color: #FF00FF;
-
-
-*/
 const Link =styled.a `
   a:link {
   color: #FF0000;
@@ -106,12 +77,12 @@ function App() {
     <>
      { /*<h1 className="heading-red">This is My First React App</h1>
       <p >This is my app description</p>*/}
-      <Title><a href="#H1">This is title H1</a></Title>
-      <TitleH2><a href="#H2">This is title H2</a></TitleH2>
-      <TitleH3><a href="#H3">This is title H3</a></TitleH3>
-      <TitleH4><a href="#H4">This is title H4</a></TitleH4>
-      <TitleH5><a href="#H5">This is title H5</a></TitleH5>
-      <TitleH6><a href="#H6">This is title H6</a></TitleH6>
+      <Title><Link href="#H1">This is title H1</Link></Title>
+      <TitleH2><Link href="#H2">This is title H2</Link></TitleH2>
+      <TitleH3><Link href="#H3">This is title H3</Link></TitleH3>
+      <TitleH4><Link href="#H4">This is title H4</Link></TitleH4>
+      <TitleH5><Link href="#H5">This is title H5</Link></TitleH5>
+      <TitleH6><Link href="#H6">This is title H6</Link></TitleH6>
 
       <Section><strong>This is section </strong></Section><br></br>
       <Button>Normal</Button>
